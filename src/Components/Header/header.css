@@ -1,0 +1,38 @@
+nav a.active {
+    color: red;
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .searchTerm {
+    width: 50%;
+    border: 3px solid #DEDEDE;
+    border-right: none;
+    padding: 5px;
+    height: 46px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+  }
+  
+  .searchButton {
+    width: 90px;
+    height: 46px;
+    border: 1px solid #FF444A;
+    background: #FF444A;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
